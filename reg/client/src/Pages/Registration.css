@@ -1,0 +1,85 @@
+.RegistrationPage header h1{
+    font-size: 3rem;
+    text-align: center;
+    color:  #124c60 ;
+    padding: 0;
+}
+
+.RegistrationPage{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.RegistrationPage header{
+    border-bottom: 2px solid #6d99a2 ;
+    padding: 0;
+}
+
+.RegistrationPage .container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 1rem;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
+.RegistrationPage .container .section-one{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.RegistrationPage .container .section-two{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.RegistrationPage .container input{
+    padding: 0.75rem;
+    font-size: 1.5rem;
+    border: 1px solid #6d99a2;
+    color: #124c60;
+    border-radius: 0.75rem;
+    margin: 0.5rem 1rem;
+    width: 90%;
+    flex:auto;
+}
+
+.static-id-field{
+    padding: 0.75rem;
+    font-size: 1.5rem;
+    background-color: #6d99a2;
+    color: #124c60;
+    border-radius: 0.75rem;
+    margin: 0.5rem 1rem;
+    width: 90%;
+    flex:auto;
+    font-weight: bolder;
+}
+
+button{
+    display: block;
+    margin: 2rem auto;
+    color: white;
+    background-color: #124c60;
+    font-size: 2rem;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    
+    background-color: #fab340;
+    
+}
+
+@media (max-width: 800px) {
+    .RegistrationPage .container{
+        flex-direction: column;
+    }
+}
+
+
